@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
+    </style>
+    <title>umy bucuok</title>
+  </head>
+  <body style="text-align: center">
+    <style type="text/css">
+      body { font-family: Calibri, Helvetica, Arial, sans-serif;
+      background-color: pink; }
+      h1,h2{ font-family: Cambria,"Times New Roman",serif; }
+      img{
+        border-radius: 20px;
+      }
+      button{
+        border-radius: 5px;
+      }
+  </style>
+    <img src="umyancak.jpeg" alt="umy" style="height: 280px" />
+    <h1>FIKRA ALFARISA</h1>
+    <h2>jawab jujur olah, tu kecekkan ka be</h2>
+    <div>
+      <button onclick="mau()">IYO</button>
+      <button onmouseover="gak(this)">NDOK</button>
+    </div>
+    <script>
+      function mau() {
+        alert("hehe");
+        alert("apo kado ndak ati aynk");
+
+        location.assign("https://wa.me/6285694508422");
+      }
+      function gak(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>
